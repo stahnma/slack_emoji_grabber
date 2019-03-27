@@ -51,8 +51,6 @@ func main() {
 		if lastdotindex != -1 {
 			suffix := uri[lastdotindex:]
 			filepath = filepath + suffix
-		} else {
-			filepath = filepath
 		}
 		if strings.Contains(uri, "alias:") {
 			fmt.Println("Skipping " + name + " because it is an alias.")
