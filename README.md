@@ -21,4 +21,4 @@ To run the `slack_emoji_grabber` you need your `SLACK_TOKEN` environment variabl
 
 
 # License
-WTFPL (c) 2019 Michael Stahnke
+See License file.
