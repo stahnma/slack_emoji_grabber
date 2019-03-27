@@ -1,7 +1,7 @@
 
 # Grab you slack team's emojis
 
-Do you ever wish you could grab the emojis from one slack team and keep them? Maybe you'd put them in another team? Well now you can. This simple little golang CLI will grab all the emojis and put them in ./emojis.
+Do you ever wish you could grab the emojis from one slack team and keep them? Maybe you'd put them in another team? Well now you can. This simple little golang CLI will grab all the emojis and put them in `./emojis`. It also won't download an emoji if you already have it in your `./emojis` dir. It also skips aliases because seriously, you have them already.
 
 # Setup
 
