@@ -9,9 +9,17 @@ You need one module that isn't in the stdlib.
 
 `go get -u github.com/nlopes/slack`
 
+
+You can also simply run `make setup`
+
 # Build
 
 `go build slack_emoji_grabber.go`
+
+
+or run
+
+`make`
 
 # Configure
 To run the `slack_emoji_grabber` you need your `SLACK_TOKEN` environment variable set. If you don't have it set, it won't work.
