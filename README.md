@@ -7,7 +7,7 @@ Do you ever wish you could grab the emojis from one slack team and keep them? Ma
 
 You need one module that isn't in the stdlib.
 
-`go get -u github.com/slack-go/slack`
+`go get -u github.com/nlopes/slack`
 
 
 You can also simply run `make setup`
