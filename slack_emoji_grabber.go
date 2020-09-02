@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/slack-go/slack"
+	"github.com/nlopes/slack"
 	"io"
 	"net/http"
 	"os"
